@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import 'animate.css';
 h1{
     font-family: 'Gotu', sans-serif;
 }
@@ -22,6 +23,12 @@ header{
     height: 750px;
 }
 nav{
+    font-family: 'Gotu', sans-serif;
+    font-size: 15px;
+    text-align: right;
+    padding: 50px 70px 0 0;
+}
+.navalf{
     font-family: 'Gotu', sans-serif;
     font-size: 15px;
     text-align: right;
@@ -137,6 +144,29 @@ footer h5{
     margin-left: 1000px;
     gap: 20px;
 }
+
+.alf{
+    background-color: #cdc5b4;
+}
+.alfn{
+    background-color: #cdc5b4;
+}
+.laalf{
+    text-align: center;
+    margin-top: 100px;
+}
+.laalf2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 70px;
+}
+#imgtodas img{
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    justify-content: center;
+}
 @media screen and (max-width:768px){
     header{
         background: url(./fotos/foto1.jpg);
@@ -219,6 +249,22 @@ footer h5{
         .con{
             margin-left: 500px;
             gap: 20px;
+        }
+        .laalf{
+            text-align: center;
+            margin-top: 100px;
+        }
+        .laalf2{
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+            text-align: center;
+            margin-top: 70px;
+        }
+        #imgtodas img{
+            max-width: 200px;
+            padding: 20px;
+            border-radius: 50px;
+            justify-content: center;
         }
 }
 @media screen and (max-width:412px){
@@ -320,5 +366,12 @@ footer h5{
         .con{
             margin-left: 200px;
             gap: 20px;
+        }
+        #imgtodas img{
+            max-width: 200px;
+            padding: 20px;
+            border-radius: 50px;
+            justify-content: center;
+            margin-left: 85px;
         }
 }
