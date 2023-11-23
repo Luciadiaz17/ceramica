@@ -49,7 +49,7 @@ nav > h1{
 }
 .waveee{
     position: absolute;
-    bottom: -130px;
+    bottom: 25px;
     width: 100%;
     padding: 0;
 }
@@ -111,7 +111,7 @@ nav > h1{
 }
 footer{
     background-image: url(./fotos/footer2.jpg);
-    background-size: 1366px;
+    background-size: 1900px;
     background-repeat: no-repeat;
     background-image: linear-gradient(
         90deg, 
@@ -166,6 +166,46 @@ footer h5{
     padding: 20px;
     border-radius: 50px;
     justify-content: center;
+}
+input[type=text],select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #85756E;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}
+input[input=submit]{
+    background-color: #85756E;
+    color: #213849;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=submit]:hover{
+    background-color: #85756E;
+    font-family: 'Poppins', sans-serif;
+}
+.formulario{
+    border-radius: 5px;
+    background-color: #cdc5b4;
+    padding: 20px;
+    font-family: 'Gotu', sans-serif;
+    color: #213849;
+}
+.gracias{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+.gracias a h2{
+    margin-top: 100px;
 }
 @media screen and (max-width:768px){
     header{
